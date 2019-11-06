@@ -1,0 +1,20 @@
+table { 
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    float: left; 
+    border: 12px honeydew;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+
+
+}
+
+th{
+    border: solid 1px; 
+}
+
+td{
+    border: solid 1px; 
+}
