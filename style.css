@@ -1,20 +1,26 @@
-table { 
-    margin-top: 0px;
-    font-size: 20px;
-    font-family: sans-serif;
-    float: left; 
-    border: 12px honeydew;
-    width: 80%;
-    text-align: center;
+   table { 
+    background: honeydew;
+    margin-top: 0px; 
+    font-size: 20px; 
+    font-family: sans-serif; 
+    float: left;  
+    
+    width: 80%; 
+   
     border-collapse: collapse;
 
+    text-align: center; 
+}   
 
-}
-
-th{
+   th{
     border: solid 1px; 
-}
+    font-size: 20px;
+    
+    
+    font-family: sans-serif;
+} 
 
 td{
-    border: solid 1px; 
-}
+    border: solid 1px;
+    
+}   
