@@ -50,7 +50,7 @@ function Store(name, min, max, averageCookies, cookiesperhour) {
                
            
             }
-            cookiesperhour.push(`Total cookies are ${sum} `);
+            this.cookiesperhour.push(`Total cookies are ${sum} `);
         }
     }
 
@@ -113,8 +113,9 @@ renderstores();
      event.preventDefault();
     tableRef.innerHTML = "";
     event.preventDefault(); 
+    renderhours();
     renderstores()
-//     renderhours();
+    
 //     // for(var storeIndex = 0; storeIndex < stores.length; storeIndex++){
 //     //     var currentStore1 = stores[storeIndex];
 
