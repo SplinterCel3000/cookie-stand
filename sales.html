@@ -3,19 +3,32 @@
         <title>Salmon Cookies</title>
         <link rel="stylesheet" type= "text/css" href="./style.css" />
         <body>
-            <div id="CookieData">
-                <table>
-                        <th id="hoursdata"> Hours
-                            </th>
+            <div>
+                <table id="tabledata"> 
+                        <th> Cookies Sold! </th>
                             <tr> 
-                            <td id = "seattlerow" ></td>
-                            <td id = "tokoyorow"></td> 
-                            <td id = "dubairow"></td> 
-                            <td id = "parisrow"></td> 
-                            <td id = "limarow"></td> 
+                            <td></td>
+                            <td></td> 
+                            <td></td> 
+                            <td></td> 
+                            <td></td> 
                             </tr>
-                </table>
+                        </table>
            
+
+            <form id="cookieform">
+                <fieldset>
+                    <label for="name">Name: </label>
+                    <input name="name" type="text"/>
+                    <label for="min"> min: </label>
+                    <input name="min" type="number"/>
+                    <label for="max"> max: </label>
+                    <input name="max" type="number"/>
+                    <label for="average"> average: </label>
+                    <input name="average" type="number"/>
+                </fieldset>
+                <button type="submit"> Add New City! </button>
+            </form>
  
 
 
