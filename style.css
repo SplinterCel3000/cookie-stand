@@ -1,9 +1,75 @@
-   table { 
+  body{
+      background:gray;
+
+  }
+  h1{
+      text-align: center;
+      font-family: sans-serif;
+      border: solid 1px;
+      background: salmon;
+  }
+  h2{
+    text-align: center;
+    font-family: sans-serif;
+    border: solid 1px;
+    background: salmon;
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    border: solid 1px;
+    background: salmon;
+}
+  #image2{
+      position: absolute;
+       right: 50px;
+       top: 50px;
+  }
+  #image4{
+    position: absolute;
+     left: 700px;
+     top: 50px;
+  }
+  
+  #image5{
+      position: absolute;
+      right:50px;
+      top: 310px;
+  }
+
+  #image6{
+    position: absolute;
+    right:400px;
+    top: 620px;
+  }
+  #image7{
+    position: absolute;
+    left:400px;
+    top: 620px;
+  }
+  p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: solid 1px;
+    background: salmon;
+  }
+  
+  form{
+      text-align: center;
+      background: honeydew;
+  }
+  .clear {
+      clear: both;
+  }
+  
+  table { 
+   float: left;
     background: honeydew;
     margin-top: 0px; 
     font-size: 20px; 
     font-family: sans-serif; 
-    float: left;  
+    
     
     width: 80%; 
    
